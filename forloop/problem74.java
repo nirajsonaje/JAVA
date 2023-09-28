@@ -1,4 +1,4 @@
-package forloop;
+
 // Given a number n, print all integers in range 1 to n.
 
 // You can assume that input is a positive integer

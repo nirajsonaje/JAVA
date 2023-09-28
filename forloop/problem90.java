@@ -1,4 +1,4 @@
-package forloop;
+
 import java.util.Scanner;
 
 //Write a program to print numbers from n to 5 .Where n is taken as input from user.
