@@ -1,5 +1,10 @@
 package patterns;
-
+// * * * 
+// *   *
+// *   *
+// * * *
+// *   *
+// * * *
 import java.util.Scanner;
 
 public class bigladdder {
@@ -20,6 +25,5 @@ public class bigladdder {
             }
             System.out.println();
         }
-
     }
 }

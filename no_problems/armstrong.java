@@ -10,7 +10,7 @@ public class armstrong {
 
         while (n >= 1) {
             int digit = n % 10;
-            sum += digit * digit * digit;
+            sum += Math.pow(digit, 3);
             n /= 10;
         }
 
@@ -20,15 +20,19 @@ public class armstrong {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int T = scanner.nextInt();
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
 
-        for (int t = 1; t <= T; t++) {
-
-            int n = scanner.nextInt();
-
-            boolean isArmstrongNumber = isArmstrong(n);
-            System.out.println(isArmstrongNumber);
+        for (int number = x; number <= y; number++) {
+            if(number>=1&& number <=9){
+                 System.out.println(number);
+            }
+            else  if (isArmstrong(number)) {
+                
+                System.out.println(number);
+            }
         }
 
+        
     }
 }

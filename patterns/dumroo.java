@@ -1,5 +1,10 @@
 package patterns;
-
+// 5
+// *       *       *       *       *
+//         *       *       *
+//                 *
+//         *       *       *
+// *       *       *       *       *
 import java.util.Scanner;
 
 public class dumroo {
