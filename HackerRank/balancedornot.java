@@ -1,4 +1,4 @@
-package Leetcode;
+package HackerRank;
 // A string containing only parentheses is balanced if the following is true: 1. 
 
 import java.util.Scanner;
