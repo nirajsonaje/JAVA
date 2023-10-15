@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
 public class tribonacci {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Input: n as an integer
-        int n = scanner.nextInt();
-
-        // Calculate the nth Tribonacci number using a loop
-        int[] tribonacci = new int[n * 3];
-        tribonacci[0] = 0;
-        tribonacci[1] = 1;
-        tribonacci[2] = 1;
-
-        for (int i = 3; i <= n; i++) {
-            tribonacci[i] = tribonacci[i - 1] + tribonacci[i - 2] + tribonacci[i - 3];
+    public static int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[] { i, j };
+                }
+            }
         }
+        return new int[] {};
+    }
 
-        // Output: Print the nth Tribonacci number
-        System.out.println(tribonacci[n]);
+    public static void main(String[] args) {
+            int nums[]={2,3,5,6};
+            int target=5;
+           int result[]= twoSum(nums,target);
+           for(int val :result){
+            System.out.println(val);
+           }
     }
 }

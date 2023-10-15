@@ -2,18 +2,14 @@ import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int original = 123;
+        int reverse = 0;
+        while (original > 0) {
+            int digit = original % 10;//3//2//1
 
-        int arr[] = new int[sc.nextInt()];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
+            reverse = reverse * 10 + digit;//3//32//321
+            original /= 10;//12//2
         }
-        int min = arr[0];
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min) {
-                min = arr[i];
-            }
-        }
-        System.out.println(min);
+        System.out.println(reverse);
     }
 }
