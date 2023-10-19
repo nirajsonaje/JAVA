@@ -8,7 +8,7 @@ package character_prob;
 
 import java.util.Scanner;
 
-public class problem73 {
+public class uppercaselowercase {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

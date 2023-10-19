@@ -1,5 +1,9 @@
 package veryImportantquestion;
+// The complexity of the above method
 
+// Time complexity:  O(n) 
+
+// Space complexity: O(1)
 public class prime {
     public static String prime(int n) {
         if (n <= 1) {
@@ -13,8 +17,9 @@ public class prime {
         return "Yes";
 
     }
+
     public static void main(String[] args) {
-        int x=6;
+        int x = 20;
         System.out.println(prime(x));
     }
 }

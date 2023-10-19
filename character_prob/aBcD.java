@@ -1,6 +1,6 @@
 package character_prob;
 
-public class problem96 {
+public class aBcD {
     // Print a, B, c, D, e, F, g...... 26 characters where each character should be
     // printed in
     // a separate line.

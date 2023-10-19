@@ -1,5 +1,6 @@
 package character_prob;
-public class problem102 {
+
+public class AAAbb {
     public static void main(String[] args) {
         char upperChar = 'A';
         char lowerChar = 'b';

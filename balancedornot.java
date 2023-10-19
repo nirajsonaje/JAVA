@@ -1,6 +1,6 @@
 public class balancedornot {
     public static void main(String[] args) {
-        String[] expressions = { "<<>>", "<>", "<><>","<<>" };
+        String[] expressions = { "<<>>", "<>", "<><>", "<<>" };
         int[] maxReplacements = { 0, 1, 2 };
 
         int array[] = new int[expressions.length];
@@ -18,10 +18,10 @@ public class balancedornot {
             }
             if (countleft == countright) {
                 array[i] = 1;
-            }
-            else if (countleft != countright) {
+            } else if (countleft != countright) {
                 array[i] = 0;
-            }{
+            }
+            {
 
             }
 

@@ -1,5 +1,5 @@
 package character_prob;
-public class problem103 {
+public class ZzYy {
     public static void main(String[] args) {
         char upperChar = 'Z';
         char lowerChar = 'z';

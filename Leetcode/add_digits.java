@@ -2,8 +2,8 @@ package Leetcode;
 
 //https://leetcode.com/problems/add-digits/description/
 public class add_digits {
-    public static void main(String[] args) {
-        int num = 38;
+    public static int addDigits(int num) {
+        //no less than 10 will have same ans
         while (num >= 10) {
             int sumDigits = 0;
             while (num > 0) {
@@ -12,6 +12,6 @@ public class add_digits {
             }
             num = sumDigits;
         }
-        System.out.println(num);
+        return num;
     }
 }
