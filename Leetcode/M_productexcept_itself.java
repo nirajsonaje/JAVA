@@ -4,7 +4,7 @@ package Leetcode;
 // Input: nums = [1,2,3,4]
 // Output: [24,12,8,6]
 //https://leetcode.com/problems/product-of-array-except-self/description/
-public class productexcept_itself {
+public class M_productexcept_itself {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
 

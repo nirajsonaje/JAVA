@@ -1,7 +1,7 @@
 package Leetcode;
 
 //https://leetcode.com/problems/remove-element/submissions/ 
-public class removeelement {
+public class E_removeelement {
     public static int removeElement(int[] nums, int val) {
 
         int k = 0; // Initialize k to 0, which will represent the count of elements not equal to

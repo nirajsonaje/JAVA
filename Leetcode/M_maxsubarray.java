@@ -2,7 +2,7 @@ package Leetcode;
 
 //https://leetcode.com/problems/maximum-subarray/description/ 
 //Kadane's algorithm, which is an efficient way to find the maximum subarray sum. 
-public class maxsubarray {
+public class M_maxsubarray {
     public int maxSubArray(int[] nums) {
         int maxSum = nums[0]; // Initialize the maximum sum with the first element
         int currentSum = nums[0]; // Initialize the current sum with the first element

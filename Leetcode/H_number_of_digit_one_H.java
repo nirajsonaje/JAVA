@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class number_of_digit_one_H {
+public class H_number_of_digit_one_H {
     // [0..9] there has only one '1' : 1
     // [0..99] 20 = 10 * 1 + 10
     // [0..999] : 300 = 10 * 20 + 100

@@ -1,7 +1,10 @@
 package Leetcode;
+// Example 1:
 
+// Input: str1 = "ABCABC", str2 = "ABC"
+// Output: "ABC"
 //https://leetcode.com/problems/greatest-common-divisor-of-strings/
-public class GCDofStrings {
+public class E_GCDofStrings {
     public static String gcdOfStrings(String str1, String str2) {
         if (!(str1 + str2).equals(str2 + str1)) {
             return "";

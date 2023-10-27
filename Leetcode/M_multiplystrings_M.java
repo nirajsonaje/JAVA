@@ -1,7 +1,7 @@
 package Leetcode;
 
 //https://leetcode.com/problems/multiply-strings/description/
-public class multiplystrings_M {
+public class M_multiplystrings_M {
     public String multiply(String num1, String num2) {
         int m = num1.length();
         int n = num2.length();

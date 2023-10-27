@@ -1,8 +1,16 @@
 package Leetcode;
 
+//https://leetcode.com/problems/valid-parentheses/description/
 import java.util.Stack;
+// Example 1:
 
-public class valid_parantheses {
+// Input: s = "()"
+// Output: true
+// Example 2:
+
+// Input: s = "()[]{}"
+// Output: true
+public class E_valid_parantheses {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
 

@@ -1,7 +1,7 @@
 package Leetcode;
 
 //https://leetcode.com/problems/ransom-note/description/
-public class ransomnote {
+public class E_ransomnote {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] charCount = new int[26]; // Assuming lowercase English letters only
 

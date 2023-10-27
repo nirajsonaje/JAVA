@@ -1,7 +1,7 @@
 package Leetcode;
 
 //https://leetcode.com/problems/reverse-words-in-a-string/description/
-public class reverseWordsinstring {
+public class M_reverseWordsinstring {
     public static String reverseWords(String s) {
         // Trim the input string to remove leading and trailing spaces
         String[] str = s.trim().split("\\s+");

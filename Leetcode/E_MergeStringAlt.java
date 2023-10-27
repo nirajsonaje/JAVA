@@ -1,6 +1,7 @@
 package Leetcode;
 
-public class MergeStringAlt {
+//https://leetcode.com/problems/merge-strings-alternately/
+public class E_MergeStringAlt {
     public static String mergeAlternately(String word1, String word2) {
         int m = word1.length(), n = word2.length();
         // 2 4
@@ -20,7 +21,7 @@ public class MergeStringAlt {
     }
 
     public static void main(String[] args) {
-            String x=mergeAlternately("niraj", "sonaje");
-            System.out.println(x);
+        String x = mergeAlternately("niraj", "sonaje");
+        System.out.println(x);
     }
 }

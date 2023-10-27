@@ -1,7 +1,12 @@
 package Leetcode;
+// Example 1:
+
+// Input: nums = [-1,0,3,5,9,12], target = 9
+// Output: 4
+// Explanation: 9 exists in nums and its index is 4
 
 //https://leetcode.com/problems/binary-search/description/
-public class binarysearch_E {
+public class E_binarysearch {
     public int search(int[] nums, int target) {
         int start = 0;
         int end = nums.length - 1;

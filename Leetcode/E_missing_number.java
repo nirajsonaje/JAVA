@@ -8,7 +8,7 @@ package Leetcode;
 // Then we will add all the array elements using a loop.
 // Finally, we will consider the difference between the summation of the first N natural numbers 
 //and the sum of the array elements.
-public class missing_number_E {
+public class E_missing_number {
     public int missingNumber(int[] nums) {
         int n = nums.length;
         int totalSum = n * (n + 1) / 2;

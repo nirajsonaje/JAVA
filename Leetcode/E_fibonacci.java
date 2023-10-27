@@ -1,6 +1,7 @@
 package Leetcode;
+
 //https://leetcode.com/problems/fibonacci-number/description/
-public class fibonacci {
+public class E_fibonacci {
     public int fib(int n) {
         if (n <= 1) {
             return n;

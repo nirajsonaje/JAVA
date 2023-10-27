@@ -1,6 +1,6 @@
 package Leetcode;
 // https://leetcode.com/problems/plus-one/description/
-public class plusone {
+public class E_plusone {
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
             if (digits[i] < 9) {

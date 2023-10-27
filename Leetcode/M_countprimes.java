@@ -3,7 +3,7 @@ package Leetcode;
 //https://leetcode.com/problems/count-primes/description/
 import java.util.Arrays;
 
-public class countprimes {
+public class M_countprimes {
     public int countPrimes(int n) {
         if (n < 2) {
             return 0;

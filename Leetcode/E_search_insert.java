@@ -1,7 +1,7 @@
 package Leetcode;
 
 //https://leetcode.com/problems/search-insert-position/
-public class search_insert {
+public class E_search_insert {
     class Solution {
         public int searchInsert(int[] nums, int target) {
             int left = 0;

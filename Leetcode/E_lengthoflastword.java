@@ -1,7 +1,7 @@
 package Leetcode;
 
 // https://leetcode.com/problems/length-of-last-word/description/
-public class lengthoflastword {
+public class E_lengthoflastword {
     public static int lengthOfLastWord(String s) {
         String[] words = s.split("\\s+");
         String lastWord = words[words.length - 1];

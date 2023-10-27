@@ -10,7 +10,7 @@ package Leetcode;
 // The numerical value of secondWord is "cba" -> "210" -> 210.
 // The numerical value of targetWord is "cdb" -> "231" -> 231.
 // We return true because 21 + 210 == 231.
-public class summationof2words {
+public class E_summationof2words {
     public boolean isSumEqual(String firstWord, String secondWord, String targetWord) {
         return getNumericValue(firstWord) + getNumericValue(secondWord) == getNumericValue(targetWord);
     }
