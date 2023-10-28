@@ -33,7 +33,7 @@ public class kthelement_inUnsortedArray {
         // for (int i = 0; i < n; i++) {
         // System.out.print(arr[i] + " ");
         // }
-        System.out.println(arr[k-1]);
+        System.out.println(arr[k - 1]);
 
     }
 }
