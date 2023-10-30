@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class maximumproductof3nos {
+public class _14_maximumproductof3nos {
     public static int maximumProduct(int[] nums) {
         // Initialize the three maximum numbers and two minimum numbers.
         // -2147483648

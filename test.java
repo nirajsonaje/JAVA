@@ -1,39 +1,24 @@
 import java.util.Scanner;
 
 public class test {
-    public static void swap(int[] arr, int x, int y) {
-        int temp = arr[x];
-        arr[x] = arr[y];
-        arr[y] = temp;
-
-    }
-
-    public static void insertionsort(int arr[], int n) {
-        for (int i = 1; i <= n - 1; i++) {
-            for (int j = i - 1; j >= 0; j--) {
-                if (arr[j] > arr[j + 1])
-                    swap(arr, j, j + 1);
-                else {
-                    break;
-                }
-            }
-        }
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int arr[] = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+        int arr1[] = new int[n];
+        for (int i = 0; i < arr1.length; i++) {
+            arr1[i] = sc.nextInt();
         }
-
-        int k = sc.nextInt();
-        insertionsort(arr, n);
-        // for (int i = 0; i < n; i++) {
-        // System.out.print(arr[i] + " ");
-        // }
-        System.out.println(arr[n-k]);
-
+        int n1 = sc.nextInt();
+        int arr2[] = new int[1];
+        for (int i = 0; i < arr2.length; i++) {
+            arr2[i] = sc.nextInt();
+        }
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; i < arr2.length; j++) {
+                if (arr1[i] - arr2[j] == 0) {
+                    System.out.print(arr1[i]);
+                }
+            }
+        }
     }
 }

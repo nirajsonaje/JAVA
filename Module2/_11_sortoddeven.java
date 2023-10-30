@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 import patterns.reverse_triangle;
 
-public class sortoddeven {
+public class _11_sortoddeven {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -11,7 +11,7 @@ public class sortoddeven {
         for (int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
         Arrays.sort(arr, (a, b) -> {
-            if ((a + b) % 2 == 0) // both are odd or both are even sort in increasing
+            if ((a + b) % 2 == 0) // both are odd or both are even sort in increasing //3 5//-2 //5 3 //2
                 return a - b;
             else if (a % 2 == 0) // 1st even and 2nd odd -> no swap
                 return -1;

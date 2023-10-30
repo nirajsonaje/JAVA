@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class thirdmaximum {
+public class _13_thirdmaximum {
     public static int thirdMax(int[] nums) {
         // Initialize three long variables to represent the top three maximum values.
         long first = Long.MIN_VALUE;

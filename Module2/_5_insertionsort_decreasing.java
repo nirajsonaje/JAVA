@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class selection_sort {
+public class _5_insertionsort_decreasing {
     public static void swap(int[] arr, int x, int y) {
         int temp = arr[x];
         arr[x] = arr[y];
@@ -8,11 +8,14 @@ public class selection_sort {
 
     }
 
-    public static void selectionsort(int arr[], int n) {
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (arr[i] > arr[j])
-                    swap(arr, i, j);
+    public static void insertionsort(int arr[], int n) {
+        for (int i = 1; i <= n - 1; i++) {
+            for (int j = i - 1; j >= 0; j--) {
+                if (arr[j] < arr[j + 1])
+                    swap(arr, j, j + 1);
+                else {
+                    break;
+                }
             }
         }
     }
@@ -23,7 +26,7 @@ public class selection_sort {
         int arr[] = new int[n];
         for (int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
-        selectionsort(arr, n);
+        insertionsort(arr, n);
         for (int i = 0; i < n; i++)
             System.out.print(arr[i] + " ");
     }

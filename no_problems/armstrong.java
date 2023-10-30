@@ -24,15 +24,13 @@ public class armstrong {
         int y = scanner.nextInt();
 
         for (int number = x; number <= y; number++) {
-            if(number>=1&& number <=9){
-                 System.out.println(number);
-            }
-            else  if (isArmstrong(number)) {
-                
+            if (number >= 1 && number <= 9) {
+                System.out.println(number);
+            } else if (isArmstrong(number)) {
+
                 System.out.println(number);
             }
         }
 
-        
     }
 }
